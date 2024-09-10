@@ -17,5 +17,5 @@ jobs:
       uses: Azure/pipelines@v1
       with:
         azure-devops-project-url: https://dev.azure.com/dekracloud/CloudTeam
-        azure-pipeline-name: 'creator245678.gitapp'
+        azure-pipeline-name: 'unit-testing-dotnet-gyorgy'
         azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
